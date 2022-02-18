@@ -9,13 +9,8 @@ app.get('/',(req, res)=>{
     res.send({msg:"Welcome to the Backend"});
 });
 
-
 app.use("/projects", projectRoutes)
 app.use("/testimonials", testimonialRoutes)
-
-
-
-
 
 
 app.listen(port);
