@@ -51,10 +51,10 @@ let testimonials = [
         imgURL:"https://i.postimg.cc/x1sYGfNg/Darrenyay2-min.jpg",
     },
     {   id: 8,
-        person: "Zharne Desember",
-        title: "Colleage",
-        descirption: "Hannah is a hard-working person and is always willing to help others. She works well in a team and is dedicated to her work.",
-        imgURL:"https://i.postimg.cc/fLg5sN2T/sunsettt.jpg",
+        person: "Aaliyah Jardien",
+        title: "Admin Intern",
+        descirption: "She's super down to earth, her personality glows with warmth and radiant good energy. Hannah, is creative and doesn't fear any challenges. She'd be of value to any team. Definitely someone you can count on.",
+        imgURL:"https://i.postimg.cc/VLrVdCPD/aaaaaliyah.jpg",
     }
 ];
     // app.use("/project", projectRoutue)
