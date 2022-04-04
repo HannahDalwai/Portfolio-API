@@ -102,7 +102,7 @@ if (testimonials ==1)res.status(404).send({msg:"Testimonial not found"});
 // GET DATA FROM REQUEST BODY
 let{ person, title,descirption,imgURL} = req.body
 
-// WRITE DETAILS TO Testiminalsssssssssssssss
+// WRITE DETAILS TO Testiminalsssss
 if (person)testimonials[testimonial].person = person;
 if (title)testimonials[testimonial].title = title;
 if (descirption)testimonials[testimonial].descirption = descirption;
