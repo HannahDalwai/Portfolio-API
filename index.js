@@ -12,5 +12,4 @@ app.get('/',(req, res)=>{
 app.use("/projects", projectRoutes)
 app.use("/testimonials", testimonialRoutes)
 
-
 app.listen(port);

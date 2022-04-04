@@ -1,11 +1,7 @@
 const express = require("express");
 const app = express.Router();
 const fixedArrayId = require ('../helpers')
-
-
 app.use(express);
-
-
 
 let testimonials = [
     {   id: 1,
@@ -58,15 +54,11 @@ let testimonials = [
     }
 ];
 
-
-    // app.use("/project", projectRoutue)
-
-
+// app.use("/project", projectRoutue)
 
 app.get('/', (req, res)=>{
     res.send(testimonials)
 });
-
 
 // GET ALL Testimonial?
 app.get('/:id',(req,res)=>{
@@ -83,7 +75,7 @@ if( !id||!person||!title||!descirption||!imgURL)
 res.status(404).send({msg:"Testimnial not found"});
 
 let newTestimonial = {
-id: testimonial.length + 1,
+id: testimonials.length + 1,
 person,
 title,
 descirption,
